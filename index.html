@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+	  	<div class="slideshow-container">
+	  		<div class="mySlides fade">
+	  			<div class="numbertext">1/5</div>
+	  			<img src="img/1.jpg" alt="1">
+	  		</div>
+	  		<div class="mySlides fade">
+	  			<div class="numbertext">2/5</div>
+	  			<img src="img/2.jpg" alt="2">
+	  		</div>
+	  		<div class="mySlides fade">
+	  			<div class="numbertext">3/5</div>
+	  			<img src="img/3.jpg" alt="3">
+	  		</div>
+	  		<div class="mySlides fade">
+	  			<div class="numbertext">4/5</div>
+	  			<img src="img/4.jpg" alt="4">
+	  		</div>
+	  		<div class="mySlides fade">
+	  			<div class="numbertext">5/5</div>
+	  			<img src="img/5.jpg" alt="5">
+	  		</div>
+	  	</div>
+		<div class="controls">
+			<a class="controls__item controls__prev" onclick="plusSlide(-1)">
+				<i class="fas fa-chevron-left"></i>
+			</a>
+			<a class="controls__item controls__next" onclick="plusSlide(1)">
+				<i class="fas fa-chevron-right"></i>
+			</a>
+		</div>
+		<br>
+		<div class="indicators">
+			<span class="indicators__item active dot" onclick="currentSlide(1)"></span>
+			<span class="indicators__item dot" onclick="currentSlide(2)"></span>
+			<span class="indicators__item dot" onclick="currentSlide(3)"></span>
+			<span class="indicators__item dot" onclick="currentSlide(4)"></span>
+			<span class="indicators__item dot" onclick="currentSlide(5)"></span>
+		</div>
+	</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
